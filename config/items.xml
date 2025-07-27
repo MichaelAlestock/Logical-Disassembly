@@ -657,6 +657,204 @@
 			</property>
 		</item>
 
+		<item name="Disassemble Steel Axe">
+			<property name="CustomIcon" value="meleeToolAxeT2SteelAxe" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleSteelAxeDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="meleeToolAllSteelParts,resourceForgedSteel,resourceWood,resourceDuctTape" />
+				<property name="Create_item_count" value="4,40,40,12" />
+			</property>
+		</item>
+
+		<item name="Disassemble Iron Pickaxe">
+			<property name="CustomIcon" value="meleeToolPickT1IronPickaxe" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleIronPickaxeDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape" />
+				<property name="Create_item_count" value="40,20,4,4" />
+			</property>
+		</item>
+
+		<item name="Disassemble Steel Pickaxe">
+			<property name="CustomIcon" value="meleeToolPickT2SteelPickaxe" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleSteelPickaxeDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="meleeToolAllSteelParts,resourceForgedSteel,resourceWood,resourceDuctTape" />
+				<property name="Create_item_count" value="3,30,30,9" />
+			</property>
+		</item>
+
+		<item name="Disassemble Stone Shovel">
+			<property name="CustomIcon" value="meleeToolShovelT0StoneShovel" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleStoneShovelDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceRockSmall,resourceYuccaFibers,resourceWood" />
+				<property name="Create_item_count" value="5,3,3" />
+			</property>
+		</item>
+
+		<item name="Disassemble Iron Shovel">
+			<property name="CustomIcon" value="meleeToolShovelT1IronShovel" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleIronShovelDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape" />
+				<property name="Create_item_count" value="32,20,4,4" />
+			</property>
+		</item>
+
+		<item name="Disassemble Steel Shovel">
+			<property name="CustomIcon" value="meleeToolShovelT2SteelShovel" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleSteelShovelDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="meleeToolAllSteelParts,resourceForgedSteel,resourceWood,resourceDuctTape" />
+				<property name="Create_item_count" value="3,30,30,9" />
+			</property>
+		</item>
+
+		<item name="Disassemble Chainsaw">
+			<property name="CustomIcon" value="meleeToolShovelT2SteelShovel" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleChainsawDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="meleeToolAxeT3ChainsawParts,vehicleBicycleHandlebars,smallEngine,resourceForgedSteel" />
+				<property name="Create_item_count" value="3,1,1,30" />
+			</property>
+		</item>
+
+		<item name="Disassemble Auger">
+			<property name="CustomIcon" value="meleeToolPickT3Auger" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleAugerDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="meleeToolAxeT3ChainsawParts,vehicleBicycleHandlebars,smallEngine,resourceForgedSteel" />
+				<property name="Create_item_count" value="3,1,1,30" />
+			</property>
+		</item>
+
+		<item name="Disassemble Salvage Wrench">
+			<property name="CustomIcon" value="meleeToolSalvageT1Wrench" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleSalvageWrenchDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedSteel,resourceMechanicalParts,resourceDuctTape" />
+				<property name="Create_item_count" value="24,8,4" />
+			</property>
+		</item>
+
+		<item name="Disassemble Salvage Ratchet">
+			<property name="CustomIcon" value="meleeToolSalvageT2Ratchet" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleSalvageRatchetDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="meleeToolAxeT3ChainsawParts,resourceForgedSteel,resourceMechanicalParts,resourceSpring" />
+				<property name="Create_item_count" value="15,24,15,6" />
+			</property>
+		</item>
+
+		<item name="Disassemble Salvage Impact Driver">
+			<property name="CustomIcon" value="meleeToolSalvageT3ImpactDriver" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleSalvageImpactDriverDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="meleeToolAxeT3ChainsawParts,resourceForgedSteel,resourceMechanicalParts,resourceSpring" />
+				<property name="Create_item_count" value="3,48,18,3" />
+			</property>
+		</item>
+
 		<!-- *** Ammos (9mm, Junk Turret, Shotgun, 7.62. etc....) -->
 		<!-- 9MM AMMO -->
 
