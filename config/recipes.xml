@@ -25,7 +25,7 @@
             <ingredient name="gunRifleT1HuntingRifleParts" count="1" />
         </recipe>
 
-        <recipe name="Double Barrel Shotgun Parts" count="1" craft_area="partsReclaimer">
+        <recipe name="Shotgun Parts" count="1" craft_area="partsReclaimer">
             <ingredient name="gunShotgunT1DoubleBarrelParts" count="1" />
         </recipe>
 
@@ -143,10 +143,6 @@
 
         <recipe name="Stone Axe" count="1" craft_area="partsReclaimer">
             <ingredient name="meleeToolRepairT0StoneAxe" count="1" />
-        </recipe>
-
-        <recipe name="Tazas Stone Axe" count="1" craft_area="partsReclaimer">
-            <ingredient name="meleeToolRepairT0TazasStoneAxe" count="1" />
         </recipe>
 
         <recipe name="Claw Hammer" count="1" craft_area="partsReclaimer">

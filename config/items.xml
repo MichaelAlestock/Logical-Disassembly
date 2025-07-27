@@ -618,24 +618,6 @@
 			</property>
 		</item>
 
-		<item name="Tazas Stone Axe">
-			<property name="CustomIcon" value="meleeToolRepairT0TazasStoneAxe" />
-			<property name="ItemTypeIcon" value="bundle" />
-			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
-			<property name="Material" value="Mstone" />
-			<property name="Group" value="Dismantle" />
-			<property name="DescriptionKey" value="dismantleTazasStoneAxeDesc" />
-			<property class="Action0">
-				<property name="Class" value="OpenBundle" />
-				<property name="Delay" value="0" />
-				<property name="Use_time" value="0" />
-				<property name="Create_item"
-					value="resourceWood,resourceYuccaFiber,resourceRockSmall" />
-				<property name="Create_item_count" value="2,2,2" />
-			</property>
-		</item>
-
 		<item name="Claw Hammer">
 			<property name="CustomIcon" value="meleeToolRepairT1ClawHammer" />
 			<property name="ItemTypeIcon" value="bundle" />
