@@ -466,52 +466,52 @@
 
 		<!-- 4X4 -->
 		
-		<item name="Disassemble Chassis">
+		<item name="Disassemble 4x4 Chassis">
 			<property name="Extends" value="vehicleWheels"/>
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Group" value="Disassembly" />
-			<property name="DescriptionKey" value="disassembleMinibikeChassisDesc" />
+			<property name="DescriptionKey" value="disassemble4x4ChassisDesc" />
 			<property class="Action0">
 				<property name="Class" value="OpenBundle" />
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceForgedIron,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricalParts" />
-				<property name="Create_item_count" value="10,4,4,4,1" />
+					value="resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricalParts" />
+				<property name="Create_item_count" value="375,60,30,60,24" />
 			</property>
 		</item>
 
-		<item name="Disassemble Minibike Handlebars">
+		<item name="Disassemble 4x4 Accessories">
 			<property name="Extends" value="vehicleWheels"/>
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Group" value="Disassembly" />
-			<property name="DescriptionKey" value="disassembleMinibikeChassisDesc" />
+			<property name="DescriptionKey" value="disassemble4x4ChassisDesc" />
 			<property class="Action0">
 				<property name="Class" value="OpenBundle" />
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceMechanicalParts,resourceSpring,resourceHeadlight,resourceElectricalParts,resourceMetalPipe" />
-				<property name="Create_item_count" value="6,3,1,3,9" />
+					value="resourceElectricalParts,resourceHeadlight,resourceMetalPipe,resourceSpring,resourceMechanicalParts" />
+				<property name="Create_item_count" value="49,8,75,6,24" />
 			</property>
 		</item> 
 
-		<item name="Disassemble Minibike">
+		<item name="Disassemble 4x4">
 			<property name="Extends" value="vehicleWheels"/>
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Material" value="Mmetal" />
 			<property name="Group" value="Disassembly" />
-			<property name="DescriptionKey" value="disassembleMinibikeChassisDesc" />
+			<property name="DescriptionKey" value="disassemble4x4ChassisDesc" />
 			<property class="Action0">
 				<property name="Class" value="OpenBundle" />
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="vehicleWheels,vehicleMinibikeChassis,vehicleMinibikeHandlebars,smallEngine,carBattery" />
-				<property name="Create_item_count" value="2,1,1,1,1" />
+					value="vehicleWheels,vehicleTruck4x4Chassis,vehicleTruck4x4Accessories,smallEngine,carBattery" />
+				<property name="Create_item_count" value="4,1,1,1,1" />
 			</property>
 		</item> 
 
