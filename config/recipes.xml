@@ -14,19 +14,19 @@
         <!-- 9MM AMMO-->
         <recipe name="Disassemble 9mm Rounds (10)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
-            <ingredient name="ammo9mmBullet" count="10" />
+            <ingredient name="ammo9mmBulletBall" count="10" />
         </recipe>
         <recipe name="Disassemble 9mm Rounds (50)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
-            <ingredient name="ammo9mmBullet" count="50" />
+            <ingredient name="ammo9mmBulletBall" count="50" />
         </recipe>
         <recipe name="Disassemble 9mm Rounds (100)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
-            <ingredient name="ammo9mmBullet" count="100" />
+            <ingredient name="ammo9mmBulletBall" count="100" />
         </recipe>
         <recipe name="Disassemble 9mm Rounds (250)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
-            <ingredient name="ammo9mmBullet" count="250" />
+            <ingredient name="ammo9mmBulletBall" count="250" />
         </recipe>
 
         <!-- 9MM AP AMMO-->
@@ -68,19 +68,19 @@
         <!-- .44 MAGNUM AMMO-->
         <recipe name="Disassemble .44 HP Magnum Rounds (10)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
-            <ingredient name="ammo44MagnumBullet" count="10" />
+            <ingredient name="ammo44MagnumBulletBall" count="10" />
         </recipe>
         <recipe name="Disassemble .44 HP Magnum Rounds (50)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
-            <ingredient name="ammo44MagnumBullet" count="50" />
+            <ingredient name="ammo44MagnumBulletBall" count="50" />
         </recipe>
         <recipe name="Disassemble .44 HP Magnum Rounds (100)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
-            <ingredient name="ammo44MagnumBullet" count="100" />
+            <ingredient name="ammo44MagnumBulletBall" count="100" />
         </recipe>
         <recipe name="Disassemble .44 HP Magnum Rounds (250)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
-            <ingredient name="ammo44MagnumBullet" count="250" />
+            <ingredient name="ammo44MagnumBulletBall" count="250" />
         </recipe>
 
         <!-- .44 MAGNUM HP AMMO-->
@@ -88,15 +88,15 @@
             tags="learnable,workbenchCrafting">
             <ingredient name="ammo44MagnumBulletHP" count="10" />
         </recipe>
-        <recipe name="Disassemble .44 HP Magnum Rounds (10)" count="1" craft_area="partsReclaimer"
+        <recipe name="Disassemble .44 HP Magnum Rounds (50)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
             <ingredient name="ammo44MagnumBulletHP" count="50" />
         </recipe>
-        <recipe name="Disassemble .44 HP Magnum Rounds (10)" count="1" craft_area="partsReclaimer"
+        <recipe name="Disassemble .44 HP Magnum Rounds (100)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
             <ingredient name="ammo44MagnumBulletHP" count="100" />
         </recipe>
-        <recipe name="Disassemble .44 HP Magnum Rounds (10)" count="1" craft_area="partsReclaimer"
+        <recipe name="Disassemble .44 HP Magnum Rounds (250)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
             <ingredient name="ammo44MagnumBulletHP" count="250" />
         </recipe>
@@ -106,15 +106,15 @@
             tags="learnable,workbenchCrafting">
             <ingredient name="ammo44MagnumBulletAP" count="10" />
         </recipe>
-        <recipe name="Disassemble .44 AP Magnum Rounds (10)" count="1" craft_area="partsReclaimer"
+        <recipe name="Disassemble .44 AP Magnum Rounds (50)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
             <ingredient name="ammo44MagnumBulletAP" count="50" />
         </recipe>
-        <recipe name="Disassemble .44 AP Magnum Rounds (10)" count="1" craft_area="partsReclaimer"
+        <recipe name="Disassemble .44 AP Magnum Rounds (100)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
             <ingredient name="ammo44MagnumBulletAP" count="100" />
         </recipe>
-        <recipe name="Disassemble .44 AP Magnum Rounds (10)" count="1" craft_area="partsReclaimer"
+        <recipe name="Disassemble .44 AP Magnum Rounds (250)" count="1" craft_area="partsReclaimer"
             tags="learnable,workbenchCrafting">
             <ingredient name="ammo44MagnumBulletAP" count="250" />
         </recipe>

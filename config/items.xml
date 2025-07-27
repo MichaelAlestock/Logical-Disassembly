@@ -5,7 +5,7 @@
 		<!-- 9MM AMMO-->
          <item name="Disassemble 9mm Rounds (10)">
 			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammo9mmBullet"/>
+			<property name="CustomIcon" value="ammo9mmBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>
 			<property name="Group" value="Disassembly"/>
 			<property name="DescriptionKey" value="Breaks down 10 9mm rounds into it's original components."/>
@@ -17,9 +17,9 @@
 				<property name="Create_item_count" value="10,10,10"/>
 			</property>
 		</item>
-         <item name="Disassemble 9mm  Rounds (50)">
+         <item name="Disassemble 9mm Rounds (50)">
 			<property name="Extends" value="Disassemble 9mm Rounds (10)"/>
-			<property name="CustomIcon" value="ammo9mmBullet"/>
+			<property name="CustomIcon" value="ammo9mmBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>
 			<property name="Group" value="Disassembly"/>
 			<property name="DescriptionKey" value="Breaks down 50 9mm rounds into it's original components."/>
@@ -33,7 +33,7 @@
 		</item>
          <item name="Disassemble 9mm Rounds (100)">
 			<property name="Extends" value="Disassemble 9mm Rounds (10)"/>
-			<property name="CustomIcon" value="ammo9mmBullet"/>
+			<property name="CustomIcon" value="ammo9mmBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>
 			<property name="Group" value="Disassembly"/>
 			<property name="DescriptionKey" value="Breaks down 100 9mm rounds into it's original components."/>
@@ -47,7 +47,7 @@
 		</item>
          <item name="Disassemble 9mm Rounds (250)">
 			<property name="Extends" value="Disassemble 9mm Rounds (10)"/>
-			<property name="CustomIcon" value="ammo9mmBullet"/>
+			<property name="CustomIcon" value="ammo9mmBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>
 			<property name="Group" value="Disassembly"/>
 			<property name="DescriptionKey" value="Breaks down 250 9mm rounds into it's original components."/>
@@ -178,8 +178,8 @@
 
 		<!-- .44 MAGNUM-->
 		 <item name="Disassemble .44 Magnum Rounds (10)">
-			<property name="Extends" value="ammoBulletBundle"/>
-			<property name="CustomIcon" value="ammo44MagnumBullet"/>
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>
 			<property name="Group" value="Disassembly"/>
 			<property name="DescriptionKey" value="Breaks down 10 .44 Magnum rounds into it's original components."/>
@@ -193,7 +193,7 @@
 		</item>
 		<item name="Disassemble .44 Magnum Rounds (50)">
 			<property name="Extends" value="Disassemble .44 Magnum Rounds (10)"/>
-			<property name="CustomIcon" value="ammo44MagnumBullet"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>
 			<property name="Group" value="Disassembly"/>
 			<property name="DescriptionKey" value="Breaks down 50 .44 Magnum rounds into it's original components."/>
@@ -207,7 +207,7 @@
 		</item>
 		<item name="Disassemble .44 Magnum Rounds (100)">
 			<property name="Extends" value="Disassemble .44 Magnum Rounds (10)"/>
-			<property name="CustomIcon" value="ammo44MagnumBullet"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>
 			<property name="Group" value="Disassembly"/>
 			<property name="DescriptionKey" value="Breaks down 100 .44 Magnum rounds into it's original components."/>
@@ -221,7 +221,7 @@
 		</item>
 		<item name="Disassemble .44 Magnum Rounds (250)">
 			<property name="Extends" value="Disassemble .44 Magnum Rounds (10)"/>
-			<property name="CustomIcon" value="ammo44MagnumBullet"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>
 			<property name="Group" value="Disassembly"/>
 			<property name="DescriptionKey" value="Breaks down 250 .44 Magnum rounds into it's original components."/>
@@ -236,7 +236,7 @@
 
 		<!-- .44 MAGNUM AP -->
 		 <item name="Disassemble .44 AP Magnum Rounds (10)">
-			<property name="Extends" value="ammoBulletBundle"/>
+			<property name="Extends" value="ammoBundleMaster"/>
 			<property name="CustomIcon" value="ammo44MagnumBulletAP"/>
 			<property name="ItemTypeIcon" value="bundle"/>
 			<property name="Group" value="Disassembly"/>
@@ -294,7 +294,7 @@
 
 			<!-- .44 MAGNUM HP -->
 		 <item name="Disassemble .44 HP Magnum Rounds (10)">
-			<property name="Extends" value="ammoBulletBundle"/>
+			<property name="Extends" value="ammoBundleMaster"/>
 			<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
 			<property name="ItemTypeIcon" value="bundle"/>
 			<property name="Group" value="Disassembly"/>
