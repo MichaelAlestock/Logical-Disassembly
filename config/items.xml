@@ -2,7 +2,394 @@
 <LogicalDisassembly_items>
 	<append xpath="//items">
 
-		<!-- 9MM AMMO-->
+		<!-- *** Weapon Parts (AK-47, M60, Desert Vulture, etc...) -->
+
+		<item name="Disassemble Machine Gun Parts">
+			<property name="Extends" value="partsMaster" param1="CustomIcon"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleAK47PartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedIron" />
+				<property name="Create_item_count" value="1" />
+			</property>
+		</item>
+
+		<item name="Disassemble Pistol Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MHandGunParts" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassemblePistolPartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedIron" />
+				<property name="Create_item_count" value="1" />
+			</property>
+		</item>
+
+		<item name="Disassemble Hunting Rifle Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MRifleParts" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleAK47PartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedIron" />
+				<property name="Create_item_count" value="1" />
+			</property>
+		</item>
+		
+		<item name="Disassemble Double Barrel Shotgun Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MShotgunParts" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleAK47PartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedIron" />
+				<property name="Create_item_count" value="1" />
+			</property>
+		</item>
+
+		<item name="Disassemble Wooden Bow Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MBowCrossbowParts" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleWoodenBowPartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceWood" />
+				<property name="Create_item_count" value="15" />
+			</property>
+		</item>
+
+		<item name="Disassemble Rocket Launcher Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MRocketLauncherParts" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleRocketLauncherPartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceWood" />
+				<property name="Create_item_count" value="15" />
+			</property>
+		</item>
+
+		<item name="Disassemble Robotic Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MJunkTurretParts" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleRoboticPartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceElectricalParts" />
+				<property name="Create_item_count" value="5" />
+			</property>
+		</item>
+
+		<item name="Disassemble Stun Baton Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MmeleeWpnBatonParts" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleStunBatonPartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceElectricalParts" />
+				<property name="Create_item_count" value="5" />
+			</property>
+		</item>
+
+		<item name="Disassemble Steel Knuckle Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MmeleeWpnKnucklesParts" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleSteelKnucklePartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedSteel" />
+				<property name="Create_item_count" value="3" />
+			</property>
+		</item>
+
+		<item name="Disassemble Machete Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MmeleeWpnBladeParts" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleMachetePartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedSteel" />
+				<property name="Create_item_count" value="4" />
+			</property>
+		</item>
+
+		<item name="Disassemble Steel Spear Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MmeleeWpnSpearParts" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleSteelSpearPartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedSteel" />
+				<property name="Create_item_count" value="5" />
+			</property>
+		</item>
+
+		<item name="Disassemble Steel Club Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MmeleeWpnClubParts" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleSteelClubPartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedSteel" />
+				<property name="Create_item_count" value="5" />
+			</property>
+		</item>
+
+		<item name="Disassemble Steel Sledgehammer Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MmeleeWpnSledgeParts" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleSteelSledgehammerPartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedSteel" />
+				<property name="Create_item_count" value="5" />
+			</property>
+		</item>
+
+		<item name="Disassemble Steel Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MmeleeToolAllSteel" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleAllSteelPartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedSteel" />
+				<property name="Create_item_count" value="5" />
+			</property>
+		</item>
+
+		<item name="Disassemble Armor Parts">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MarmorHeavy" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleArmorPartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedSteel" />
+				<property name="Create_item_count" value="2" />
+			</property>
+		</item>
+
+		<!-- *** Armor and Armor Parts -->
+
+		<item name="Disassemble Armor Parts">
+			<property name="Extends" value="partsMaster" param1="CustomIcon"/>
+			<property name="ItemTypeIcon" value="gunsmithing" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleArmorPartsDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedIron" />
+				<property name="Create_item_count" value="1" />
+			</property>
+		</item>
+
+		<!-- *** Tools (perkMiner69r, perkMotherLode | perkTheHuntsman) -->
+
+		<item name="Disassemble Stone Axe">
+			<property name="CustomIcon" value="meleeToolRepairT0StoneAxe" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mstone" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleStoneAxeDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceWood,resourceYuccaFiber,resourceRockSmall" />
+				<property name="Create_item_count" value="2,2,2" />
+			</property>
+		</item>
+
+		<item name="Disassemble Tazas Stone Axe">
+			<property name="CustomIcon" value="meleeToolRepairT0TazasStoneAxe" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mstone" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleTazasStoneAxeDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceWood,resourceYuccaFiber,resourceRockSmall" />
+				<property name="Create_item_count" value="2,2,2" />
+			</property>
+		</item>
+
+		<item name="Disassemble Claw Hammer">
+			<property name="CustomIcon" value="meleeToolRepairT1ClawHammer" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleClawHammerDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape" />
+				<property name="Create_item_count" value="30,15,5,5" />
+			</property>
+		</item>
+
+		<item name="Disassemble Nailgun">
+			<property name="CustomIcon" value="meleeToolRepairT3Nailgun" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleNailgunDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="meleeToolAxeT3ChainsawParts,resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceSpring" />
+				<property name="Create_item_count" value="3,64,24,3" />
+			</property>
+		</item>
+
+		<item name="Disassemble Iron Fireaxe">
+			<property name="CustomIcon" value="meleeToolAxeT1IronFireaxe" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleFireaxeDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="meleeToolAxeT3ChainsawParts,resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceSpring" />
+				<property name="Create_item_count" value="3,64,24,3" />
+			</property>
+		</item>
+
+		<!-- *** Ammos (9mm, Junk Turret, Shotgun, 7.62. etc....) -->
+		<!-- 9MM AMMO -->
+
+		<!-- 9MM REGULAR AMMO-->
 		<item name="Disassemble 9mm Rounds (10)">
 			<property name="CustomIcon" value="ammo9mmBulletBall" />
 			<property name="ItemTypeIcon" value="bundle" />
@@ -75,7 +462,7 @@
 			<property name="HoldType" value="45" />
 			<property name="Stacknumber" value="1000" />
 			<property name="Group" value="Disassembly" />
-			<property name="DescriptionKey" value="disassemble9MMDesc" />
+			<property name="DescriptionKey" value="disassemble9mmAmmoDesc" />
 			<property class="Action0">
 				<property name="Class" value="OpenBundle" />
 				<property name="Delay" value="0" />
@@ -138,7 +525,7 @@
 			<property name="HoldType" value="45" />
 			<property name="Stacknumber" value="1000" />
 			<property name="Group" value="Disassembly" />
-			<property name="DescriptionKey" value="disassemble9MMDesc" />
+			<property name="DescriptionKey" value="disassemble9mmAmmoDesc" />
 			<property class="Action0">
 				<property name="Class" value="OpenBundle" />
 				<property name="Delay" value="0" />
@@ -191,7 +578,9 @@
 			</property>
 		</item>
 
-		<!-- .44 MAGNUM-->
+		<!-- .44 MAGNUM -->
+
+		<!-- .44 MAGNUM REGULAR AMMO -->
 		<item name="Disassemble .44 Magnum Rounds (10)">
 			<property name="CustomIcon" value="ammo44MagnumBulletBall" />
 			<property name="ItemTypeIcon" value="bundle" />
@@ -383,6 +772,220 @@
 				<property name="Create_item"
 					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
 				<property name="Create_item_count" value="500,500,250" />
+			</property>
+		</item>
+
+		<!-- 7.62 -->
+
+		<!-- 7.62 REGULAR AMMO -->
+		<item name="Disassemble 7.62 Rounds (10)">
+			<property name="CustomIcon" value="ammo762mmBulletBall" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="HoldType" value="45" />
+			<property name="Stacknumber" value="1000" />
+			<property name="DescriptionKey" value="disassemble762AmmoDesc" />
+			<property name="Group" value="Disassembly" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="10,30,10" />
+			</property>
+		</item>
+		<item name="Disassemble 7.62 Rounds (50)">
+			<property name="Extends" value="Disassemble 7.62 Rounds (10)" />
+			<property name="CustomIcon" value="ammo44MagnumBulletBall" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Group" value="Disassembly" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="50,150,50" />
+			</property>
+		</item>
+		<item name="Disassemble 7.62 Rounds (100)">
+			<property name="Extends" value="Disassemble 7.62 Rounds (10)" />
+			<property name="CustomIcon" value="ammo762mmBulletBall" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Group" value="Disassembly" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="100,300,100" />
+			</property>
+		</item>
+		<item name="Disassemble 7.62 Rounds (250)">
+			<property name="Extends" value="Disassemble 7.62 Rounds (10)" />
+			<property name="CustomIcon" value="ammo762mmBulletBall" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Group" value="Disassembly" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="250,750,250" />
+			</property>
+		</item>
+
+		<!-- 7.62 AP -->
+		<item name="Disassemble 7.62 AP Rounds (10)">
+			<property name="CustomIcon" value="ammo762mmBulletAP" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="HoldType" value="45" />
+			<property name="Stacknumber" value="1000" />
+			<property name="DescriptionKey" value="disassemble762AmmoDesc" />
+			<property name="Group" value="Disassembly" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="20,100,10" />
+			</property>
+		</item>
+		<item name="Disassemble 7.62 AP Rounds (50)">
+			<property name="Extends" value="Disassemble 7.62 AP Rounds (10)" />
+			<property name="CustomIcon" value="ammo762mmBulletAP" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Group" value="Disassembly" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="100,250,50" />
+			</property>
+		</item>
+		<item name="Disassemble 7.62 AP Rounds (100)">
+			<property name="Extends" value="Disassemble 7.62 AP Rounds (10)" />
+			<property name="CustomIcon" value="ammo762mmBulletAP" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Group" value="Disassembly" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="200,500,100" />
+			</property>
+		</item>
+		<item name="Disassemble 7.62 AP Rounds (250)">
+			<property name="Extends" value="Disassemble 7.62 AP Rounds (10)" />
+			<property name="CustomIcon" value="ammo762mmBulletAP" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Group" value="Disassembly" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="500,1250,250" />
+			</property>
+		</item>
+
+		<!-- 7.62 HP -->
+		<item name="Disassemble 7.62 HP Rounds (10)">
+			<property name="CustomIcon" value="ammo762mmBulletHP" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="HoldType" value="45" />
+			<property name="Stacknumber" value="1000" />
+			<property name="DescriptionKey" value="disassemble762AmmoDesc" />
+			<property name="Group" value="Disassembly" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="20,100,10" />
+			</property>
+		</item>
+		<item name="Disassemble 7.62 HP Rounds (50)">
+			<property name="Extends" value="Disassemble 7.62 HP Rounds (10)" />
+			<property name="CustomIcon" value="ammo44MagnumBulletHP" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Group" value="Disassembly" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="100,250,50" />
+			</property>
+		</item>
+		<item name="Disassemble 7.62 HP Rounds (100)">
+			<property name="Extends" value="Disassemble 7.62 HP Rounds (10)" />
+			<property name="CustomIcon" value="ammo762mmBulletHP" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Group" value="Disassembly" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="200,500,100" />
+			</property>
+		</item>
+		<item name="Disassemble 7.62 HP Rounds (250)">
+			<property name="Extends" value="Disassemble 7.62 HP Rounds (10)" />
+			<property name="CustomIcon" value="ammo762mmBulletHP" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Group" value="Disassembly" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="500,1250,250" />
+			</property>
+		</item>
+
+		<!-- ROBOTIC AMMO -->
+
+		<!-- ROBOTIC TURRET  -->
+		<item name="Disassemble Robotic Turret Rounds (10)">
+			<property name="CustomIcon" value="ammoJunkTurretRegular" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="HoldType" value="45" />
+			<property name="Stacknumber" value="1000" />
+			<property name="DescriptionKey" value="disassemble762AmmoDesc" />
+			<property name="Group" value="Disassembly" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="20,100,10" />
 			</property>
 		</item>
 	</append>
