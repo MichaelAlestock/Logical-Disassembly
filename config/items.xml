@@ -5,7 +5,8 @@
 		<!-- *** Weapon Parts (AK-47, M60, Desert Vulture, etc...) -->
 
 		<item name="Machine Gun Parts">
-			<property name="Extends" value="partsMaster" param1="CustomIcon" />
+			<property name="Extends" value="partsMaster" />
+			<property name="CustomIcon" value="gunMGT1AK47Parts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -24,6 +25,7 @@
 
 		<item name="Pistol Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="gunHandgunT1PistolParts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -41,6 +43,7 @@
 		</item>
 
 		<item name="Hunting Rifle Parts">
+			<property name="CustomIcon" value="gunRifleT1HuntingRifleParts" />
 			<property name="Extends" value="gunMGT1AK47Parts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
@@ -58,8 +61,9 @@
 			</property>
 		</item>
 
-		<item name="Double Barrel Shotgun Parts">
+		<item name="Shotgun Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="gunShotgunT1DoubleBarrel" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -78,6 +82,7 @@
 
 		<item name="Wooden Bow Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="gunBowT1WoodenBowParts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -96,6 +101,7 @@
 
 		<item name="Rocket Launcher Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="gunExplosivesT3RocketLauncherParts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -114,6 +120,7 @@
 
 		<item name="Robotic Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="gunBotRoboticsParts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -132,6 +139,7 @@
 
 		<item name="Stun Baton Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="meleeWpnBatonT2StunBatonParts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -150,6 +158,7 @@
 
 		<item name="Steel Knuckle Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnucklesParts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -168,6 +177,7 @@
 
 		<item name="Machete Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="meleeWpnBladeT3MacheteParts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -186,6 +196,7 @@
 
 		<item name="Steel Spear Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="meleeWpnSpearT3SteelSpearParts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -204,6 +215,7 @@
 
 		<item name="Steel Club Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="meleeWpnClubT3SteelClubParts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -222,6 +234,7 @@
 
 		<item name="Steel Sledgehammer Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammerParts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -240,6 +253,7 @@
 
 		<item name="Steel Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="meleeToolAllSteelParts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -258,6 +272,7 @@
 
 		<item name="Armor Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="armorParts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -276,6 +291,7 @@
 
 		<item name="Chainsaw Parts">
 			<property name="Extends" value="gunMGT1AK47Parts" />
+			<property name="CustomIcon" value="meleeToolAxeT3ChainsawParts" />
 			<property name="ItemTypeIcon" value="gunsmithing" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -424,6 +440,7 @@
 
 		<item name="Motorcycle Chassis">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleMotorcycleChassis" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Group" value="Dismantle" />
@@ -440,6 +457,7 @@
 
 		<item name="Motorcycle Handlebars">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleMotorcycleHandlebars" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Group" value="Dismantle" />
@@ -456,6 +474,7 @@
 
 		<item name="Motorcycle">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleMinibikePlaceable" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Material" value="Mmetal" />
@@ -528,6 +547,7 @@
 		<!-- GYROCOPTER -->
 
 		<item name="GyroCopter Chassis">
+			<property name="CustomIcon" value="vehicleGyroCopterChassis" />
 			<property name="Extends" value="vehicleWheels" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -545,6 +565,7 @@
 
 		<item name="GyroCopter Accessories">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleGyroCopterAccessories" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Group" value="Dismantle" />
@@ -561,6 +582,7 @@
 
 		<item name="GyroCopter">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleGyrocopterPlaceable" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Material" value="Mmetal" />
@@ -777,7 +799,7 @@
 		</item>
 
 		<item name="Chainsaw">
-			<property name="CustomIcon" value="meleeToolShovelT2SteelShovel" />
+			<property name="CustomIcon" value="meleeToolAxeT3Chainsaw" />
 			<property name="ItemTypeIcon" value="bundle" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />

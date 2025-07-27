@@ -77,10 +77,6 @@
             <ingredient name="meleeToolAxeT3ChainsawParts" count="1" />
         </recipe>
 
-        <recipe name="Steel Knuckle Parts" count="1" craft_area="partsReclaimer">
-            <ingredient name="meleeWpnKnucklesT3SteelKnucklesParts" count="1" />
-        </recipe>
-
         <!-- VEHICLES-->
 
         <recipe name="Wheels" count="1" craft_area="partsReclaimer">
