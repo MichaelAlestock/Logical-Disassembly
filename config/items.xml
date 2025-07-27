@@ -3,7 +3,7 @@
     <append xpath="//items">
 
         <!-- 9MM AMMO-->
-        <item name="Disassemble HP 9mm Ammo (5)">
+        <item name="Disassemble 9mm HP Rounds (5)">
 			<property name="Extends" value="ammoBundleMaster"/>
 			<property name="CustomIcon" value="ammo9mmBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>
@@ -16,7 +16,7 @@
 				<property name="Create_item_count" value="5,5,5"/>
 			</property>
 		</item>
-         <item name="Disassemble HP 9mm Ammo (10)">
+         <item name="Disassemble 9mm HP Rounds (10)">
 			<property name="Extends" value="ammoBundleMaster"/>
 			<property name="CustomIcon" value="ammo9mmBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>
@@ -29,7 +29,7 @@
 				<property name="Create_item_count" value="10,10,10"/>
 			</property>
 		</item>
-         <item name="Disassemble HP 9mm Ammo (25)">
+         <item name="Disassemble 9mm HP Rounds (25)">
 			<property name="Extends" value="ammoBundleMaster"/>
 			<property name="CustomIcon" value="ammo9mmBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>
@@ -42,7 +42,7 @@
 				<property name="Create_item_count" value="25,25,25"/>
 			</property>
 		</item>
-         <item name="Disassemble HP 9mm Ammo (50)">
+         <item name="Disassemble 9mm HP Rounds (50)">
 			<property name="Extends" value="ammoBundleMaster"/>
 			<property name="CustomIcon" value="ammo9mmBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>
@@ -55,7 +55,7 @@
 				<property name="Create_item_count" value="50,50,50"/>
 			</property>
 		</item>
-         <item name="Disassemble HP 9mm Ammo (100)">
+         <item name="Disassemble 9mm HP Rounds (100)">
 			<property name="Extends" value="ammoBundleMaster"/>
 			<property name="CustomIcon" value="ammo9mmBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>
@@ -68,7 +68,7 @@
 				<property name="Create_item_count" value="100,100,100"/>
 			</property>
 		</item>
-         <item name="Disassemble HP 9mm Ammo (250)">
+         <item name="Disassemble 9mm HP Rounds (250)">
 			<property name="Extends" value="ammoBundleMaster"/>
 			<property name="CustomIcon" value="ammo9mmBulletBall"/>
 			<property name="ItemTypeIcon" value="bundle"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-    <append xpath="//blocks">
+    <insertAfter xpath="//blocks/block[@name='workbench']">
         <!-- *** WORKBENCH -->
         <block name="partsReclaimer">
             <!-- Class -->
@@ -12,7 +12,7 @@
             <property name="UnlockedBy" value="craftingWorkstations" />
             <!-- UI_Info -->
             <property name="CreativeMode" value="Player" />
-            <property name="DescriptionKey" value="workbenchDesc" />
+            <property name="DescriptionKey" value="partsReclaimerDesc" />
             <property name="DisplayType" value="blockMulti" />
             <property name="WorkstationIcon" value="ui_game_symbol_workbench" />
             <property name="Stacknumber" value="1" />
@@ -65,5 +65,8 @@
             <property name="SoundPickup" value="workbench_grab" />
             <property name="SoundPlace" value="workbench_place" />
         </block>
+    </insertAfter>
+    <append xpath="//blocks/block[@name='tableSaw']">
+        <property name="WorkstationWindow" value="workstation_partsReclaimer"/>
     </append>
 </config>
