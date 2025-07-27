@@ -1,3 +1,7 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
 partsReclaimer,blocks,Workstation,,,Parts Reclaimer,,,,,,,,,,,
 partsReclaimerDesc,blocks,Workstation,,,"Some salvage operations require specialized workstations —and the Parts Reclaimer delivers. Use it to disassemble crafted items back into their core components, ready for reuse or trade.\n\nRepair with Forged Iron, Mechanical Parts, and Wood.",,,,,,,,,,,,,
+lblCategoryDisassembly,UI,Tooltip,,,Disassembly,,,,,,,,,,,,,
+disassemble9mmAmmoDesc,items,bundle,,,"Disassembles the rounds into their base components.\n\nBreaks down into Bullet Tip, Gunpowder, and Bullet Casing.",,,,,,,,,,,,,
+disassemble44AmmoDesc,items,bundle,,,"Disassembles the rounds into their base components.\n\nBreaks down into Bullet Tip, Gunpowder, and Bullet Casing.",,,,,,,,,,,,,
+
