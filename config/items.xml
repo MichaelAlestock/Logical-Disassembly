@@ -125,7 +125,7 @@
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceElectricalParts" />
+					value="resourceElectricParts" />
 				<property name="Create_item_count" value="5" />
 			</property>
 		</item>
@@ -143,7 +143,7 @@
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceElectricalParts" />
+					value="resourceElectricParts" />
 				<property name="Create_item_count" value="5" />
 			</property>
 		</item>
@@ -296,6 +296,7 @@
 
 		<item name="Disassemble Wheels">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleWheels" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Material" value="MMotorToolParts" />
@@ -315,6 +316,7 @@
 
 		<item name="Disassemble Minibike Chassis">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleMinibikeChassis" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Group" value="Disassembly" />
@@ -324,13 +326,14 @@
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceForgedIron,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricalParts" />
+					value="resourceForgedIron,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts" />
 				<property name="Create_item_count" value="10,4,4,4,1" />
 			</property>
 		</item>
 
 		<item name="Disassemble Minibike Handlebars">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleMinibikeHandlebars" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Group" value="Disassembly" />
@@ -340,13 +343,14 @@
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceMechanicalParts,resourceSpring,resourceHeadlight,resourceElectricalParts,resourceMetalPipe" />
+					value="resourceMechanicalParts,resourceSpring,resourceHeadlight,resourceElectricParts,resourceMetalPipe" />
 				<property name="Create_item_count" value="6,3,1,3,9" />
 			</property>
 		</item>
 
 		<item name="Disassemble Minibike">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleMinibikePlaceable" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Material" value="Mmetal" />
@@ -366,6 +370,7 @@
 
 		<item name="Disassemble Bicycle Chassis">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleBicycleChassis" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Group" value="Disassembly" />
@@ -375,13 +380,14 @@
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceForgedIron,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricalParts" />
+					value="resourceForgedIron,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts" />
 				<property name="Create_item_count" value="7,3,3,3,3" />
 			</property>
 		</item>
 
 		<item name="Disassemble Bicycle Handlebars">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleBicycleHandlebars"/>
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Group" value="Disassembly" />
@@ -391,13 +397,14 @@
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceMechanicalParts,resourceSpring,resourceHeadlight,resourceElectricalParts,resourceMetalPipe" />
+					value="resourceMechanicalParts,resourceSpring,resourceHeadlight,resourceElectricParts,resourceMetalPipe" />
 				<property name="Create_item_count" value="3,3,1,9,3" />
 			</property>
 		</item>
 
 		<item name="Disassemble Bicycle">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleBicyclePlaceable" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Material" value="Mmetal" />
@@ -426,7 +433,7 @@
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricalParts" />
+					value="resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts" />
 				<property name="Create_item_count" value="25,10,10,10,3" />
 			</property>
 		</item>
@@ -442,12 +449,12 @@
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceMechanicalParts,resourceDuctTape,resourceHeadlight,resourceElectricalParts,resourceForgedSteel" />
+					value="resourceMechanicalParts,resourceDuctTape,resourceHeadlight,resourceElectricParts,resourceForgedSteel" />
 				<property name="Create_item_count" value="15,15,1,9,7" />
 			</property>
 		</item>
 
-		<item name="Disassemble Minibike">
+		<item name="Disassemble Motorcycle">
 			<property name="Extends" value="vehicleWheels" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
@@ -468,6 +475,7 @@
 
 		<item name="Disassemble 4x4 Chassis">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleTruck4x4Chassis" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Group" value="Disassembly" />
@@ -477,13 +485,14 @@
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricalParts" />
+					value="resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts" />
 				<property name="Create_item_count" value="375,60,30,60,24" />
 			</property>
 		</item>
 
 		<item name="Disassemble 4x4 Accessories">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleTruck4x4Accessories" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Group" value="Disassembly" />
@@ -493,13 +502,14 @@
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceElectricalParts,resourceHeadlight,resourceMetalPipe,resourceSpring,resourceMechanicalParts" />
+					value="resourceElectricParts,resourceHeadlight,resourceMetalPipe,resourceSpring,resourceMechanicalParts" />
 				<property name="Create_item_count" value="49,8,75,6,24" />
 			</property>
 		</item>
 
 		<item name="Disassemble 4x4">
 			<property name="Extends" value="vehicleWheels" />
+			<property name="CustomIcon" value="vehicleTruck4x4Placeable" />
 			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
 			<property name="Material" value="Mmetal" />
@@ -528,7 +538,7 @@
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricalParts" />
+					value="resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts" />
 				<property name="Create_item_count" value="187,60,37,60,30" />
 			</property>
 		</item>
@@ -544,7 +554,7 @@
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="resourceElectricalParts,resourceHeadlight,resourceMetalPipe,resourceMechanicalParts,resourceSpring" />
+					value="resourceElectricParts,resourceHeadlight,resourceMetalPipe,resourceMechanicalParts,resourceSpring" />
 				<property name="Create_item_count" value="49,8,75,15,6" />
 			</property>
 		</item>
@@ -802,7 +812,7 @@
 			</property>
 		</item>
 
-		<!-- SSALVAGE TOOLS -->
+		<!-- SALVAGE TOOLS -->
 
 		<item name="Disassemble Salvage Wrench">
 			<property name="CustomIcon" value="meleeToolSalvageT1Wrench" />
@@ -1001,7 +1011,7 @@
 				<property name="Delay" value="0" />
 				<property name="Use_time" value="0" />
 				<property name="Create_item"
-					value="meleeWpnBatonT2StunBatonParts,resourceForgedIron,resourceDuctTape,resourceElectricalParts" />
+					value="meleeWpnBatonT2StunBatonParts,resourceForgedIron,resourceDuctTape,resourceElectricParts" />
 				<property name="Create_item_count" value="40,20,8,8" />
 			</property>
 		</item>
