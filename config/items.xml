@@ -565,7 +565,8 @@
 				<property name="Create_item_count" value="3,1,1,1,1" />
 			</property>
 		</item> 
-		<!-- *** Tools (perkMiner69r, perkMotherLode | perkTheHuntsman) -->
+
+		<!-- TOOLS -->
 
 		<item name="Disassemble Stone Axe">
 			<property name="CustomIcon" value="meleeToolRepairT0StoneAxe" />
@@ -801,6 +802,8 @@
 			</property>
 		</item>
 
+		<!-- SSALVAGE TOOLS -->
+
 		<item name="Disassemble Salvage Wrench">
 			<property name="CustomIcon" value="meleeToolSalvageT1Wrench" />
 			<property name="ItemTypeIcon" value="bundle" />
@@ -852,6 +855,82 @@
 				<property name="Create_item"
 					value="meleeToolAxeT3ChainsawParts,resourceForgedSteel,resourceMechanicalParts,resourceSpring" />
 				<property name="Create_item_count" value="3,48,18,3" />
+			</property>
+		</item>
+
+		<!-- KNIVES -->
+
+		<item name="Disassemble Bone Knife">
+			<property name="CustomIcon" value="meleeWpnBladeT0BoneKnife" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleBoneKnifeDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceBone" />
+				<property name="Create_item_count" value="5" />
+			</property>
+		</item>
+
+		<item name="Disassemble Hunting Knife">
+			<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleBoneKnifeDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape" />
+				<property name="Create_item_count" value="16,8,4,4" />
+			</property>
+		</item>
+
+		<item name="Disassemble Machete">
+			<property name="CustomIcon" value="meleeWpnBladeT3Machete" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleMacheteDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="meleeWpnBladeT3MacheteParts,resourceForgedSteel,resourceWood,resourceDuctTape" />
+				<property name="Create_item_count" value="3,30,30,9" />
+			</property>
+		</item>
+
+		<!-- CLUBS AND BATONS -->
+
+		<item name="Disassemble Wooden Club">
+			<property name="CustomIcon" value="meleeWpnClubT0WoodenClub" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleWoodenClubDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceWood" />
+				<property name="Create_item_count" value="5" />
 			</property>
 		</item>
 
