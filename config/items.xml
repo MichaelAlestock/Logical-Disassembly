@@ -2,83 +2,351 @@
 <config>
     <append xpath="//items">
 
-        <!-- 9MM AMMO-->
-        <item name="Disassemble 9mm HP Rounds (5)">
+		<!-- 9MM AMMO-->
+         <item name="Disassemble 9mm Rounds (10)">
 			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="ammo9mmBullet"/>
 			<property name="ItemTypeIcon" value="bundle"/>
-			<property name="DescriptionKey" value="Breaks down 5 9mm HP rounds into it's original components."/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 10 9mm rounds into it's original components."/>
 			<property class="Action0">
 				<property name="Class" value="OpenBundle"/>
 				<property name="Delay" value="0"/>
-				<property name="Use_time" value="1"/>
-				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
-				<property name="Create_item_count" value="5,5,5"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="10,10,10"/>
 			</property>
 		</item>
+         <item name="Disassemble 9mm  Rounds (50)">
+			<property name="Extends" value="Disassemble 9mm Rounds (10)"/>
+			<property name="CustomIcon" value="ammo9mmBullet"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 50 9mm rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="50,50,50"/>
+			</property>
+		</item>
+         <item name="Disassemble 9mm Rounds (100)">
+			<property name="Extends" value="Disassemble 9mm Rounds (10)"/>
+			<property name="CustomIcon" value="ammo9mmBullet"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 100 9mm rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>		
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="100,100,100"/>
+			</property>
+		</item>
+         <item name="Disassemble 9mm Rounds (250)">
+			<property name="Extends" value="Disassemble 9mm Rounds (10)"/>
+			<property name="CustomIcon" value="ammo9mmBullet"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 250 9mm rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="250,250,250"/>
+			</property>
+		</item>
+
+		 <!-- 9MM HP AMMO-->
          <item name="Disassemble 9mm HP Rounds (10)">
 			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammo9mmBulletBall"/>
+			<property name="CustomIcon" value="ammo9mmBulletHP"/>
 			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
 			<property name="DescriptionKey" value="Breaks down 10 9mm HP rounds into it's original components."/>
 			<property class="Action0">
 				<property name="Class" value="OpenBundle"/>
 				<property name="Delay" value="0"/>
-				<property name="Use_time" value="2"/>
-				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
-				<property name="Create_item_count" value="10,10,10"/>
-			</property>
-		</item>
-         <item name="Disassemble 9mm HP Rounds (25)">
-			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammo9mmBulletBall"/>
-			<property name="ItemTypeIcon" value="bundle"/>
-			<property name="DescriptionKey" value="Breaks down 25 9mm HP rounds into it's original components."/>
-			<property class="Action0">
-				<property name="Class" value="OpenBundle"/>
-				<property name="Delay" value="0"/>
-				<property name="Use_time" value="3"/>
-				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
-				<property name="Create_item_count" value="25,25,25"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="20,10,10"/>
 			</property>
 		</item>
          <item name="Disassemble 9mm HP Rounds (50)">
-			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammo9mmBulletBall"/>
+			<property name="Extends" value="Disassemble 9mm HP Rounds (10)"/>
+			<property name="CustomIcon" value="ammo9mmBulletHP"/>
 			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
 			<property name="DescriptionKey" value="Breaks down 50 9mm HP rounds into it's original components."/>
 			<property class="Action0">
 				<property name="Class" value="OpenBundle"/>
 				<property name="Delay" value="0"/>
-				<property name="Use_time" value="4"/>
-				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
-				<property name="Create_item_count" value="50,50,50"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="100,50,50"/>
 			</property>
 		</item>
          <item name="Disassemble 9mm HP Rounds (100)">
-			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammo9mmBulletBall"/>
+			<property name="Extends" value="Disassemble 9mm HP Rounds (10)"/>
+			<property name="CustomIcon" value="ammo9mmBulletHP"/>
 			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
 			<property name="DescriptionKey" value="Breaks down 100 9mm HP rounds into it's original components."/>
 			<property class="Action0">
 				<property name="Class" value="OpenBundle"/>
 				<property name="Delay" value="0"/>
-				<property name="Use_time" value="5"/>		
-				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
-				<property name="Create_item_count" value="100,100,100"/>
+				<property name="Use_time" value="0"/>		
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="200,100,100"/>
 			</property>
 		</item>
          <item name="Disassemble 9mm HP Rounds (250)">
-			<property name="Extends" value="ammoBundleMaster"/>
-			<property name="CustomIcon" value="ammo9mmBulletBall"/>
+			<property name="Extends" value="Disassemble 9mm HP Rounds (10)"/>
+			<property name="CustomIcon" value="ammo9mmBulletHP"/>
 			<property name="ItemTypeIcon" value="bundle"/>
-			<property name="DescriptionKey" value="Breaks down 250 9mm HP rounds into it's original components."/>
+			<property name="Group" value="Disassemblys"/>
+			<property name="DescriptionKey" value="Breaks down 250 9mm HP rounds into it's original components."/>	
 			<property class="Action0">
 				<property name="Class" value="OpenBundle"/>
 				<property name="Delay" value="0"/>
-				<property name="Use_time" value="6"/>
-				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
-				<property name="Create_item_count" value="250,250,250"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="500,250,250"/>
+			</property>
+		</item>
+
+		 <!-- 9MM AP AMMO-->
+         <item name="Disassemble 9mm AP Rounds (10)">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="ammo9mmBulletAP"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 10 9mm AP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="20,20,10"/>
+			</property>
+		</item>
+         <item name="Disassemble 9mm AP Rounds (50)">
+			<property name="Extends" value="Disassemble 9mm AP Rounds (10)"/>
+			<property name="CustomIcon" value="ammo9mmBulletAP"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 50 9mm AP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="100,100,50"/>
+			</property>
+		</item>
+         <item name="Disassemble 9mm AP Rounds (100)">
+			<property name="Extends" value="Disassemble 9mm AP Rounds (10)"/>
+			<property name="CustomIcon" value="ammo9mmBulletAP"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 100 9mm AP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>		
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="200,200,100"/>
+			</property>
+		</item>
+         <item name="Disassemble 9mm AP Rounds (250)">
+			<property name="Extends" value="Disassemble 9mm AP Rounds (10)"/>
+			<property name="CustomIcon" value="ammo9mmBulletAP"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassemblys"/>
+			<property name="DescriptionKey" value="Breaks down 250 9mm AP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="500,500,250"/>
+			</property>
+		</item>
+
+		<!-- .44 MAGNUM-->
+		 <item name="Disassemble .44 Magnum Rounds (10)">
+			<property name="Extends" value="ammoBulletBundle"/>
+			<property name="CustomIcon" value="ammo44MagnumBullet"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 10 .44 Magnum rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="10,20,10"/>
+			</property>
+		</item>
+		<item name="Disassemble .44 Magnum Rounds (50)">
+			<property name="Extends" value="Disassemble .44 Magnum Rounds (10)"/>
+			<property name="CustomIcon" value="ammo44MagnumBullet"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 50 .44 Magnum rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="50,200,50"/>
+			</property>
+		</item>
+		<item name="Disassemble .44 Magnum Rounds (100)">
+			<property name="Extends" value="Disassemble .44 Magnum Rounds (10)"/>
+			<property name="CustomIcon" value="ammo44MagnumBullet"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 100 .44 Magnum rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="100,200,100"/>
+			</property>
+		</item>
+		<item name="Disassemble .44 Magnum Rounds (250)">
+			<property name="Extends" value="Disassemble .44 Magnum Rounds (10)"/>
+			<property name="CustomIcon" value="ammo44MagnumBullet"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 250 .44 Magnum rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="250,500,250"/>
+			</property>
+		</item>
+
+		<!-- .44 MAGNUM AP -->
+		 <item name="Disassemble .44 AP Magnum Rounds (10)">
+			<property name="Extends" value="ammoBulletBundle"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletAP"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 10 .44 Magnum AP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="20,30,10"/>
+			</property>
+		</item>
+		<item name="Disassemble .44 Magnum AP Rounds (50)">
+			<property name="Extends" value="Disassemble .44 AP Magnum Rounds (10)"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletAP"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 50 .44 Magnum AP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="100,150,50"/>
+			</property>
+		</item>
+		<item name="Disassemble .44 Magnum AP Rounds (100)">
+			<property name="Extends" value="Disassemble .44 AP Magnum Rounds (10)"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletAP"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 100 .44 AP Magnum rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="200,300,100"/>
+			</property>
+		</item>
+		<item name="Disassemble .44 Magnum AP Rounds (250)">
+			<property name="Extends" value="Disassemble .44 AP Magnum Rounds (10)"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletAP"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 250 .44 Magnum AP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="500,750,250"/>
+			</property>
+		</item>
+
+			<!-- .44 MAGNUM HP -->
+		 <item name="Disassemble .44 HP Magnum Rounds (10)">
+			<property name="Extends" value="ammoBulletBundle"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 10 .44 Magnum HP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="20,20,10"/>
+			</property>
+		</item>
+		<item name="Disassemble .44 Magnum HP Rounds (50)">
+			<property name="Extends" value="Disassemble .44 HP Magnum Rounds (10)"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 50 .44 Magnum HP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="100,100,50"/>
+			</property>
+		</item>
+		<item name="Disassemble .44 Magnum HP Rounds (100)">
+			<property name="Extends" value="Disassemble .44 HP Magnum Rounds (10)"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 100 .44 HP Magnum rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="200,200,100"/>
+			</property>
+		</item>
+		<item name="Disassemble .44 Magnum HP Rounds (250)">
+			<property name="Extends" value="Disassemble .44 HP Magnum Rounds (10)"/>
+			<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Group" value="Disassembly"/>
+			<property name="DescriptionKey" value="Breaks down 250 .44 Magnum HP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+				<property name="Create_item_count" value="500,500,250"/>
 			</property>
 		</item>
     </append>
