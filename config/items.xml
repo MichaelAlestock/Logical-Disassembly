@@ -934,6 +934,80 @@
 			</property>
 		</item>
 
+		<item name="Disassemble Baseball Bat">
+			<property name="CustomIcon" value="meleeWpnClubT1BaseballBat" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleWoodenClubDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape" />
+				<property name="Create_item_count" value="40,20,2,2" />
+			</property>
+		</item>
+
+		<item name="Disassemble Steel Club">
+			<property name="CustomIcon" value="meleeWpnClubT3SteelClub" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleSteelClubDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="meleeWpnClubT3SteelClubParts,resourceForgedSteel,resourceWood" />
+				<property name="Create_item_count" value="40,20,2,2" />
+			</property>
+		</item>
+
+		<item name="Disassemble Pipe Baton">
+			<property name="CustomIcon" value="meleeWpnBatonT0PipeBaton" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassemblePipeBatonDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="resourceMetalPipe,resourceLeather" />
+				<property name="Create_item_count" value="10,7" />
+			</property>
+		</item>
+
+		<item name="Disassemble Stun Baton">
+			<property name="CustomIcon" value="meleeWpnBatonT2StunBaton" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Group" value="Disassembly" />
+			<property name="DescriptionKey" value="disassembleStunBatonDesc" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Create_item"
+					value="meleeWpnBatonT2StunBatonParts,resourceForgedIron,resourceDuctTape,resourceElectricalParts" />
+				<property name="Create_item_count" value="40,20,8,8" />
+			</property>
+		</item>
+
+			<!-- CLUBS AND BATONS -->
+
 		<!-- *** Ammos (9mm, Junk Turret, Shotgun, 7.62. etc....) -->
 		<!-- 9MM AMMO -->
 
