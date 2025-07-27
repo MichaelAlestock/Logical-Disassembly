@@ -77,10 +77,6 @@
             <ingredient name="meleeToolAxeT3ChainsawParts" count="1" />
         </recipe>
 
-        <recipe name="Disassemble Stun Baton Parts" count="1" craft_area="partsReclaimer">
-            <ingredient name="meleeWpnBatonT2StunBatonParts" count="1" />
-        </recipe>
-
         <recipe name="Disassemble Steel Knuckle Parts" count="1" craft_area="partsReclaimer">
             <ingredient name="meleeWpnKnucklesT3SteelKnucklesParts" count="1" />
         </recipe>
@@ -119,7 +115,7 @@
             <ingredient name="vehicleMotorcycleChassis" count="1" />
         </recipe>
 
-        <recipe name="Disassemble Motorcycle Handelbars" count="1" craft_area="partsReclaimer">
+        <recipe name="Disassemble Motorcycle Handlebars" count="1" craft_area="partsReclaimer">
             <ingredient name="vehicleMotorcycleHandlebars" count="1" />
         </recipe>
 
@@ -153,7 +149,7 @@
             <ingredient name="meleeToolRepairT0StoneAxe" count="1" />
         </recipe>
 
-        <recipe name="Disassemble Tazas Axe" count="1" craft_area="partsReclaimer">
+        <recipe name="Disassemble Tazas Stone Axe" count="1" craft_area="partsReclaimer">
             <ingredient name="meleeToolRepairT0TazasStoneAxe" count="1" />
         </recipe>
 
