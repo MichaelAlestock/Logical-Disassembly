@@ -6,6 +6,11 @@
 		<item name="Disassemble 9mm Rounds (10)">
 			<property name="CustomIcon" value="ammo9mmBulletBall" />
 			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="HoldType" value="45" />
+			<property name="Stacknumber" value="1000" />
+			<property name="Material" value="Mmetal" />
 			<property name="Group" value="Disassembly" />
 			<property name="DescriptionKey"
 				value="Breaks down 10 9mm rounds into it's original components." />
@@ -71,6 +76,11 @@
 		<item name="Disassemble 9mm HP Rounds (10)">
 			<property name="CustomIcon" value="ammo9mmBulletHP" />
 			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="HoldType" value="45" />
+			<property name="Stacknumber" value="1000" />
 			<property name="Group" value="Disassembly" />
 			<property name="DescriptionKey"
 				value="Breaks down 10 9mm HP rounds into it's original components." />
@@ -136,6 +146,11 @@
 		<item name="Disassemble 9mm AP Rounds (10)">
 			<property name="CustomIcon" value="ammo9mmBulletAP" />
 			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="HoldType" value="45" />
+			<property name="Stacknumber" value="1000" />
 			<property name="Group" value="Disassembly" />
 			<property name="DescriptionKey"
 				value="Breaks down 10 9mm AP rounds into it's original components." />
@@ -201,6 +216,11 @@
 		<item name="Disassemble .44 Magnum Rounds (10)">
 			<property name="CustomIcon" value="ammo44MagnumBulletBall" />
 			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="HoldType" value="45" />
+			<property name="Stacknumber" value="1000" />
 			<property name="Group" value="Disassembly" />
 			<property name="DescriptionKey"
 				value="Breaks down 10 .44 Magnum rounds into it's original components." />
@@ -266,6 +286,11 @@
 		<item name="Disassemble .44 Magnum AP Rounds (10)">
 			<property name="CustomIcon" value="ammo44MagnumBulletAP" />
 			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="HoldType" value="45" />
+			<property name="Stacknumber" value="1000" />
 			<property name="Group" value="Disassembly" />
 			<property name="DescriptionKey"
 				value="Breaks down 10 .44 Magnum AP rounds into it's original components." />
@@ -331,6 +356,11 @@
 		<item name="Disassemble .44 Magnum HP Rounds (10)">
 			<property name="CustomIcon" value="ammo44MagnumBulletHP" />
 			<property name="ItemTypeIcon" value="bundle" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="HoldType" value="45" />
+			<property name="Stacknumber" value="1000" />
 			<property name="Group" value="Disassembly" />
 			<property name="DescriptionKey"
 				value="Breaks down 10 .44 Magnum HP rounds into it's original components." />
