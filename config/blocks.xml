@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <insertAfter xpath="//blocks/block[@name='workbench']">
-        <!-- *** WORKBENCH -->
+        <!-- PARTS RECLAIMER -->
         <block name="partsReclaimer">
             <!-- Class -->
             <property name="Class" value="Workstation" />
             <property class="Workstation">
                 <property name="Modules" value="output" />
-                <property name="CraftingAreaRecipes" value="player,workbench" />
+                <property name="CraftingAreaRecipes" value="player,partsReclaimer" />
             </property>
             <property name="UnlockedBy" value="craftingWorkstations" />
             <!-- UI_Info -->
