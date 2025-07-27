@@ -1,0 +1,25 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<config>
+    <append xpath="\\recipes">
+
+        <!-- 9MM AMMO-->
+        <recipe name="Disassemble 9mm HP Rounds (5)" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="ammo9mmBulletHP" count="5" />
+        </recipe>
+        <recipe name="Disassemble 9mm HP Rounds (10)" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="ammo9mmBulletHP" count="10" />
+        </recipe>
+        <recipe name="Disassemble 9mm HP Rounds (25)" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="ammo9mmBulletHP" count="25" />
+        </recipe>
+        <recipe name="Disassemble 9mm HP Rounds (50)" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="ammo9mmBulletHP" count="50" />
+        </recipe>
+        <recipe name="Disassemble 9mm HP Rounds (100)" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="ammo9mmBulletHP" count="100" />
+        </recipe>
+        <recipe name="Disassemble 9mm HP Rounds (250)" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="ammo9mmBulletHP" count="250" />
+        </recipe>
+    </append>
+</config>

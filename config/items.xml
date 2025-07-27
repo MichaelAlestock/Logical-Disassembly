@@ -1,0 +1,85 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<config>
+    <append>
+
+        <!-- 9MM AMMO-->
+        <item name="Disassemble HP 9mm Ammo (5)">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="ammo9mmBulletBall"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="Breaks down 5 9mm HP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="1"/>
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="5,5,5"/>
+			</property>
+		</item>
+         <item name="Disassemble HP 9mm Ammo (10)">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="ammo9mmBulletBall"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="Breaks down 10 9mm HP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="2"/>
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="10,10,10"/>
+			</property>
+		</item>
+         <item name="Disassemble HP 9mm Ammo (25)">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="ammo9mmBulletBall"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="Breaks down 25 9mm HP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="3"/>
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="25,25,25"/>
+			</property>
+		</item>
+         <item name="Disassemble HP 9mm Ammo (50)">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="ammo9mmBulletBall"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="Breaks down 50 9mm HP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="4"/>
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="50,50,50"/>
+			</property>
+		</item>
+         <item name="Disassemble HP 9mm Ammo (100)">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="ammo9mmBulletBall"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="Breaks down 100 9mm HP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="5"/>		
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="100,100,100"/>
+			</property>
+		</item>
+         <item name="Disassemble HP 9mm Ammo (250)">
+			<property name="Extends" value="ammoBundleMaster"/>
+			<property name="CustomIcon" value="ammo9mmBulletBall"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="Breaks down 250 9mm HP rounds into it's original components."/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="6"/>
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="250,250,250"/>
+			</property>
+		</item>
+    </append>
+</config>

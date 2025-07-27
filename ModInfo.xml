@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="logical_disassembly" />
+		<DisplayName value="Logical Disassembly v2.1" />
+		<Version value="1.0.0" />
+		<Description value="Break down every craftable item into its original components." />
+		<Author value="d0kk3n" />
+		<Website value="https://next.nexusmods.com/profile/d0kk3n" />
+</xml>
