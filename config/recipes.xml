@@ -446,10 +446,6 @@
             <ingredient name="thrownGrenade" count="1" />
         </recipe>
 
-        <recipe name="Timed Charge" count="1" craft_area="partsReclaimer">
-            <ingredient name="thrownTimedCharge" count="1" />
-        </recipe>
-
         <!-- WEAPON AMMO -->
 
         <!-- 9MM AMMO-->
